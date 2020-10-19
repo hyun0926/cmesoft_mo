@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="ko" class="no-js">
+	<head>
+		<meta charset="utf-8" />
+		<title>CMEsoft</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+		<meta name="apple-mobile-web-app-title" content="CMEsoft">
+		<meta name="description" content="CMEsoft">
+		<meta name="keywords" content="웹에이전시, 비트코인, 가상화폐">
+		<meta property="og:site_name" content="CMEsoft">
+		<meta property="og:type" content="website">
+		<meta property="og:title" content="CMEsoft">
+		<meta property="og:description" content="">
+		<meta property="og:url" content="">
+		<meta property="og:image" content="">
+		<link rel="stylesheet" type="text/css" href="css/layout.css" media="all" />
+		<link rel="stylesheet" type="text/css" href="css/contents.css" media="all" />
+		<link rel="stylesheet" type="text/css" href="css/flat/red.css" media="all" />
+		<script type="text/javascript" src="js/jquery-3.1.0.min.js"></script>
+		<script type="text/javascript" src="js/icheck.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
+		<script type="text/javascript" src="js/global.js"></script>
+		<script type="text/javascript" src="js/jquery.modal.min.js"></script>
+		<script type="text/javascript" src="js/modernizr.js"></script>
+		<script type="text/javascript" src="js/jquery.dlmenu.js"></script>
+	</head>
+	<body>
+
+		<header class="main-header">
+			<a class="cd-logo" href="index.html"><img src="images/common/logo.png" alt="CMEsoft"></a>
+			<div id="dl-menu" class="dl-menuwrapper">
+				<a href="#n" class="dl-trigger icon_language"><img src="images/common/btn_lang.svg" alt=""></a>
+				<ul class="dl-menu">
+					<li><a href="">한국어</a></li>
+					<li><a href="">English</a></li>
+					<li><a href="">Русский</a></li>
+				</ul>
+			</div>			
+			<script>
+				$(function() {
+					$('#dl-menu').dlmenu();
+				});
+			</script>
+			<a id="cd-menu-trigger" href="#0"><span class="cd-menu-text">Menu</span><span class="cd-menu-icon"></span></a>
+		</header>
+
+		<main class="cd-main-content sub-content community">
+			<div class="visual-wrap sub-visual">
+				<div class="slogan-wrap">
+					<em>Notice</em>
+				</div>
+			</div>
+			<nav id="navbar" class="sub-menu">
+				<ul>
+					<li><a href="notice.html" class="current">Notice</a></li>
+					<li><a href="people.html">People</a></li>
+					<li><a href="recruit.html">Recruit</a></li>
+				</ul>
+			</nav>
+			<div class="mid-contents white-bg">
+				<h3>Notice</h3>
+				<div class="search-wrap">
+					<input type="text" placeholder="검색어 입력"><a href="" class="btnSearch"><i class="xi-search"></i></a>
+				</div>
+				<table class="normal-table">
+					<colgroup>
+						<col width="10%" />
+						<col width="90%" />
+					</colgroup>
+					<tbody>
+						<tr>
+							<td>3</td>
+							<td><a href="board_veiw.html">cmesoft 홈페이지 영어 및 러시아어 추가</a></td>
+						</tr>
+						<tr>
+							<td>2</td>
+							<td><a href="board_veiw.html">cmesoft 기업부설연구소 설립</a></td>
+						</tr>
+						<tr>
+							<td>1</td>
+							<td><a href="board_veiw.html">cmesoft 홈페이지 리뉴얼</a></td>
+						</tr>
+					</tbody>
+				</table>
+				<p class="pageCurrent"><strong><span>1</span>전체</strong>40/4</p>
+				<div class="pagination">
+					<div class="pagination_wrap">
+						<ul>
+							<li><a href="#" class="on">1</a></li>
+							<li><a href="#">2</a></li>
+							<li><a href="#">3</a></li>
+							<li><a href="#">4</a></li>
+							<li><a href="#">5</a></li>
+						</ul>
+						<a href="#" class="prev xi-angle-left"><span>이전</span></a>
+						<a href="#" class="next xi-angle-right"><span>다음</span></a>
+					</div>
+				</div>		
+							
+			</div>
+		</main>
+
+<!--
+<script>
+	var subNavigation = $(".sub-menu");
+			stickyDiv = "sticky";
+			yourHeader = $('.visual-wrap').height();
+
+	$(window).scroll(function() {
+		if( $(this).scrollTop() > yourHeader ) {
+			subNavigation.addClass(stickyDiv);
+		} else {
+			subNavigation.removeClass(stickyDiv);
+		}
+	});
+</script>
+-->
+
+		<div id="cd-lateral-nav">
+			<nav class="gnb">
+				<ul class="cd-navigation cd-single-item-wrapper">
+					<li><a href="company.html">Company</a></li>
+					<li><a href="solution.html">Solution</a></li>
+					<li><a href="works.html">Works</a></li>
+					<li><a href="notice.html">Community</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+			<ul class="btn-wrap">
+				<li><a href="#request" rel="modal:open">Request</a></li>
+				<li><a href="" class="targetBlank">Brochure</a></li>
+			</ul>
+			<div class="info-wrap">
+				<h5>CMEsoft</h5>
+				<p>서울특별시 강남구 역삼로 128 (건영빌딩2·3F)</p>
+				<ul>
+					<li><strong>T.</strong> 02-537-3838</li>
+					<li><strong>F.</strong> 02-538-1733</li>
+					<li><strong>E.</strong> info@cmesoft.co.kr</li>
+				</ul>
+			</div>
+			<p class="copyright">&copy; 2018 All Rights Reserved by cmesoft</p>
+		</div>
+		<div id="request" class="modal main-blocker">
+			<div class="tgroup">
+				<h3>Request</h3>
+				<p>CMEsoft에 문의주셔서 감사합니다. 빠른 시간내에 답변 드리겠습니다.</p>
+			</div>
+			<div class="cell">
+				<dl class="list type-request">
+					<dt>Organization</dt>
+					<dd><input type="text" placeholder="업체명 또는 이름을 기입해주세요." /></dd>
+					<dt>E-mail</dt>
+					<dd><input type="email" placeholder="E-mail 주소를 입력해 주세요." /></dd>
+					<dt>Mobile</dt>
+					<dd><input type="text" placeholder="휴대전화번호를 입력해주세요." /></dd>
+					<dt>Message</dt>
+					<dd class="borNo">
+						<textarea name="" id="" rows="5"></textarea>
+					</dd>
+					<dt>Attachment</dt>
+					<dd>
+						<input type="text" placeholder="파일 첨부" class="input-file" />
+						<a href="#n" class="btn_attFile">파일첨부</a>
+					</dd>
+				</dl>
+				<div class="agree-wrap">
+					<span class="agree"><input type="checkbox" id="agree" class="iCheck"><label for="agree">개인정보 수집 및 이용에 동의합니다.</label></span>
+					<span class="view"><a href="#privacy">전문보기</a></span>
+				</div>
+				<div class="btn-solo">
+					<ul>
+						<li><a href="#n">문의하기</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div id="privacy" class="modal sub-blocker">
+			<div class="inner">
+				<div class="tgroup">
+					<h3>개인정보수집 및 이용동의</h3>
+				</div>
+				<dl class="list">
+					<dt>1. 수집하는개인정보의 항목</dt>
+					<dd>수집항목 : 이름, 연락처, E-mail 등 온라인 상담에 필요한 항목을 수집합니다.</dd>
+					<dt>2. 개인정보의 수집목적</dt>
+					<dd>고객님께서 CMEsoft 의 온라인 상담에 필요한 최소한의 정보를 필수 사항으로 수집합니다. 회원님께서 제공하신 모든 정보는 상기 목적에 필요한 용도 이외로는 사용되지 않으며, 수집정보의 범위나 사용 목적, 용도가 변경될 시에는 반드시 회원님께 사전 동의를 구할 것입니다.</dd>
+					<dt>3. 개인정보의 보유 및 이용기간</dt>
+					<dd>귀하의 개인정보는 온라인 견적 상담후 개인정보의 수집목적 또는 제공받은 목적이 달성되면 파기하는 것을 원칙으로 합니다. 상법, 전자상거래 등에서의 소비자보호에 관한 법률 등 관계법령의 규정에 의하여 보존할 필요가 있는 경우 CMEsoft의 관계법령에서 정한 일정한 기간 동안 고객정보를 보관합니다. 이 경우 회사는 보관하는 정보를 그 보관의 목적으로만 이용하며 보존기간은 아래와 같습니다.</dd>
+				</dl>
+				<ul class="dotStyle">
+					<li>계약 또는 청약철회 등에 관한 기록 : 5년</li>
+					<li>소비자의 불만 또는 분쟁처리에 관한 기록 : 3년</li>
+				</ul>
+			</div>
+		</div>
+		<script>
+			$('a[href="#privacy"]').click(function(event) {
+				event.preventDefault();
+				$(this).modal({
+					closeExisting: false
+				});
+			});			
+		</script>
+		<a href="#0" class="cd-top js-cd-top">Top</a>
+	</body>
+</html>	
